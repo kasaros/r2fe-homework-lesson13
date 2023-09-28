@@ -1,0 +1,44 @@
+.page-container{
+    display: flex;
+    gap: 15px;
+    padding: 5px;
+    background-color: rgb(221, 221, 221);
+    height: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px ;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: rgb(130, 130, 130);
+}   
+.item{
+    background-color: rgb(201, 201, 201);
+    padding: 20px;
+    border: 5px solid rgb(237, 237, 237);
+    font-size: 30px;
+    text-align: center;
+}
+.featured{
+    background-color: red;
+    padding: 20px;
+    border: 5px solid rgb(255, 148, 148);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.image{
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+}
+.movie-name{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+
